@@ -4,7 +4,7 @@
 Correctional homes, often called correctional facilities or prisons, play a vital role in the criminal justice system. These institutions serve as the primary means of punishment, rehabilitation, and societal reintegration for individuals who have committed offenses. In this case, the analysis was done for minors between the ages of 14 years to 18 years.
 
 # Tools Used: 
-Microsoft server, Tableau
+Microsoft SQL Server, Tableau
 
 # Key Questions
 - What crimes are the most committed
@@ -15,6 +15,7 @@ Microsoft server, Tableau
 # The data set was uploaded into the SQL server for further analysis with the name 'correctional_home'
 
 select * from sysobjects where xtype = 'u'
+
 select * from Correctional_home;
 
 select GENDER, count(GENDER)as 'Count'
@@ -67,11 +68,15 @@ order by count (MODE_OF_REFERRAL)desc;
 <img width="255" alt="sql 6" src="https://github.com/UkokoD/Correctional-Home-Analysis/assets/135248114/94301dc0-7c9f-48d9-a9cb-ad84977c42b8">
 
 # Summary 
-- 
+- Crime conspiracy, theft, culpable homicide, and house trespass are the highest crimes committed by the juveniles
+- Juveniles living with their parents commit the most crimes
+- referrals are mostly from the court
 
-
-
-
+# Recommendation
+- Parents should be made accountable if they are lacking in training, it's ironic that single parents have a lower crime rate
+- Juveniles should be spoken to from tender ages on the evils of crimes, in schools, social events even religious gatherings
+- Society should be educated on the advantages of these correctional homes, so they can know where to direct each case
+- The government should organize conferences, vocational activities, and more engaging and productive activities that will create a good leverage ground for the youths
 
 
 <img width="802" alt="Correctional Dashboard" src="https://github.com/UkokoD/Correctional-Home-Analysis/assets/135248114/62715e94-0a62-42d7-af12-4ebb813b4301">
