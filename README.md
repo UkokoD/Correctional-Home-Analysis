@@ -61,7 +61,6 @@ group by NATURE_OF_OFFENCE, GENDER
 order by count desc;
 ```
 
-
 <img width="202" alt="sql 7" src="https://github.com/UkokoD/Correctional-Home-Analysis/assets/135248114/2eb87d1f-ecf9-4396-8845-b42f15ed38c1">
 
 
